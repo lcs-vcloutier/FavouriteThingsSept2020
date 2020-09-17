@@ -20,8 +20,22 @@ struct ContentView: View {
     
     var body: some View {
         
+        NavigationView {
+            Text("My Favourite Things")
+            .font(.system(size: 60))
+            List {
+                NavigationLink(destination: AllAboutMe()) {
+                    // Provide the label for the navigation link
+                    Text("About me")
+                }
+               NavigationLink(destination: myFavouriteThing()) {
+                    // Provide the label for the navigation link
+                    Text("I'm Passionate About")
+                }
+            }
+        }
         // One view at the top level
-        AllAboutMe()
+        //AllAboutMe()
     }
 }
 
@@ -31,4 +45,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
