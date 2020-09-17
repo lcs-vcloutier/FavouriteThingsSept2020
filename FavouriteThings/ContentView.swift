@@ -21,8 +21,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            Text("My Favourite Things")
-            .font(.system(size: 60))
+          
             List {
                 NavigationLink(destination: AllAboutMe()) {
                     // Provide the label for the navigation link
