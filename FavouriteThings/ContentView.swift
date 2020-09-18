@@ -32,6 +32,7 @@ struct ContentView: View {
                     Text("I'm Passionate About")
                 }
             }
+        .navigationBarTitle("Favourite Things")
         }
         // One view at the top level
         //AllAboutMe()

@@ -12,8 +12,6 @@ struct myFavouriteThing: View {
     var body: some View {
         ScrollView {
         VStack(spacing: 15.0) {
-             Text("My Favourite Thing")
-                .font(.system(size: 60))
             Image("Sun")
                 .resizable()
                 .scaledToFit()
@@ -21,6 +19,7 @@ struct myFavouriteThing: View {
         }
         .padding(.horizontal, 2.0)
     }
+         .navigationBarTitle("My Favourite Thing")
 }
 
 struct myFavouriteThing_Previews: PreviewProvider {

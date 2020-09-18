@@ -12,8 +12,6 @@ struct AllAboutMe: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 15.0) {
-                 Text("About Me")
-                    .font(.system(size: 60))
                 Image("Me")
                     .resizable()
                     .scaledToFit()
@@ -30,7 +28,7 @@ struct AllAboutMe: View {
             .padding(.horizontal, 2.0)
             
         }
-        
+    .navigationBarTitle("A Bit About Me")
     }
 }
 
