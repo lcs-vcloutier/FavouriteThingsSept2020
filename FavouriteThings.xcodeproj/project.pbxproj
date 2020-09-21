@@ -15,6 +15,7 @@
 		2A1D903625113C7F0029A820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D903425113C7F0029A820 /* LaunchScreen.storyboard */; };
 		2A1E368D25138F72001A9B09 /* myFavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E368C25138F72001A9B09 /* myFavouriteThing.swift */; };
 		2ADB10F525128DD700AD1C45 /* AllAboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADB10F425128DD700AD1C45 /* AllAboutMe.swift */; };
+		2AF739322519059500499E20 /* displayPhotoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF739312519059500499E20 /* displayPhotoText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2A1D903725113C7F0029A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1E368C25138F72001A9B09 /* myFavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFavouriteThing.swift; sourceTree = "<group>"; };
 		2ADB10F425128DD700AD1C45 /* AllAboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAboutMe.swift; sourceTree = "<group>"; };
+		2AF739312519059500499E20 /* displayPhotoText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayPhotoText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				2ADB10F425128DD700AD1C45 /* AllAboutMe.swift */,
 				2A1D903125113C7F0029A820 /* Preview Content */,
 				2A1E368C25138F72001A9B09 /* myFavouriteThing.swift */,
+				2AF739312519059500499E20 /* displayPhotoText.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -108,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Cloutier, Vincent";
 				TargetAttributes = {
 					2A1D902525113C7C0029A820 = {
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1D902A25113C7C0029A820 /* AppDelegate.swift in Sources */,
+				2AF739322519059500499E20 /* displayPhotoText.swift in Sources */,
 				2ADB10F525128DD700AD1C45 /* AllAboutMe.swift in Sources */,
 				2A1D902C25113C7C0029A820 /* SceneDelegate.swift in Sources */,
 				2A1D902E25113C7C0029A820 /* ContentView.swift in Sources */,
@@ -200,6 +204,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -260,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

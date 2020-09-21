@@ -12,18 +12,9 @@ struct AllAboutMe: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 15.0) {
-                Image("Me")
-                    .resizable()
-                    .scaledToFit()
-                Text("This is me driving a boat this summer in Georgian Bay.")
-                Image("CSHLD")
-                    .resizable()
-                    .scaledToFit()
-                Text("This is me and my co-workers Louis and Omar at the Henri-Bradet CSHLD.")
-                Image("Roadtrip")
-                    .resizable()
-                    .scaledToFit()
-                Text("This is me and my friend Jonty on a roadtrip.")
+                displayPhotoText(imageName: "Me", imageDescription: "This is me driving a boat this summer in Georgian Bay.")
+                displayPhotoText(imageName: "CSHLD", imageDescription: "This is me and my co-workers Louis and Omar at the Henri-Bradet CSHLD.")
+                displayPhotoText(imageName: "Roadtrip", imageDescription: "This is me and my friend Jonty on a roadtrip.")
             }
             .padding(.horizontal, 2.0)
             

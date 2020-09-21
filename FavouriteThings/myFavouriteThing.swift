@@ -12,10 +12,7 @@ struct myFavouriteThing: View {
     var body: some View {
         ScrollView {
         VStack(spacing: 15.0) {
-            Image("Sun")
-                .resizable()
-                .scaledToFit()
-            Text("The sun is my favourite thing because it's so vital to life.")
+            displayPhotoText(imageName: "Sun", imageDescription: "The sun is my favourite thing because it's so vital to life.")
         }
         .padding(.horizontal, 2.0)
     }
