@@ -11,19 +11,19 @@ import SwiftUI
 struct myFavouriteThing: View {
     var body: some View {
         ScrollView {
-        VStack(spacing: 15.0) {
-            displayPhotoText(imageName: "Sun", imageDescription: "The sun is my favourite thing because it's so vital to life.")
+            VStack(spacing: 15.0) {
+                displayPhotoText(imageName: "Sun2", imageDescription: "The sun is my favourite thing because it's so vital to life.")
+            }
+            .padding(.horizontal, 2.0)
         }
-        .padding(.horizontal, 2.0)
+        .navigationBarTitle("My Favourite Thing")
     }
-         .navigationBarTitle("My Favourite Thing")
-}
-
-struct myFavouriteThing_Previews: PreviewProvider {
-    static var previews: some View {
-        myFavouriteThing()
+    
+    struct myFavouriteThing_Previews: PreviewProvider {
+        static var previews: some View {
+            myFavouriteThing()
+        }
     }
-}
 }
 
 
